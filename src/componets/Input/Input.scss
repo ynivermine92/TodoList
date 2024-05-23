@@ -1,0 +1,27 @@
+.todoList{
+    &__wrapper{
+        display: flex;
+        width: 100%;
+        margin:  10px 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__form{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        input{
+            width: 60%;
+            padding: 0 20px;
+            
+        }
+    }
+    &__btn{
+        transition: all 0.5s;
+        &:hover{
+            color: #fff;
+            background: black;
+            transition: all 0.5s;
+         }
+    }
+}

@@ -1,0 +1,36 @@
+.todu {
+  &__todu__item {
+    margin: 10px 0;
+  }
+
+  &__item-delete {
+    border: 2px solid red;
+    background: transparent;
+    transition: all 0.5s;
+    margin: 0 6px;
+
+    &:hover {
+      transition: all 0.5s;
+      border: 2px solid black;
+
+      svg {
+        fill: black;
+      }
+    }
+  }
+
+  &__item-exclamation {
+    border: 2px solid green;
+    background: transparent;
+    transition: all 0.5s;
+
+    &:hover {
+      border: 2px solid black;
+      transition: all 0.5s;
+
+      svg {
+        fill: black;
+      }
+    }
+  }
+}

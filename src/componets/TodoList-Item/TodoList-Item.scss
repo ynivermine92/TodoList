@@ -1,0 +1,17 @@
+.todu {
+  &__list-item {
+    color: black;
+    cursor: pointer;
+  }
+
+  &__list-label {
+    &.important {
+      color: blueviolet;
+      font-size: 20px;
+    }
+    &.done {
+      text-decoration: line-through;
+    }
+  }
+}
+
